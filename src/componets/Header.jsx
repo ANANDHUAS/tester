@@ -6,6 +6,7 @@ const Header = ({ userId }) => (
       <h1 className="text-2xl font-bold text-blue-700">Fund Finder</h1>
       {userId && (
         <div className="text-right">
+          <b>2.0</b>
           <span className="text-sm text-gray-500">User ID</span>
           <p className="text-xs font-mono text-gray-700 bg-gray-100 px-2 py-1 rounded">
             {userId}
