@@ -12,7 +12,7 @@ import CalendarView from "./componets/CalendarView";
 import { useVirtualizer } from "@tanstack/react-virtual";
 import { useQuery, useInfiniteQuery } from "@tanstack/react-query";
 import { createUsersInfinateQueryOptions } from "./apis/createUserInfiniteQueryOptions";
-import './app.css';
+import './App.css';
 const filter = {};
 import { scroller,Events } from 'react-scroll'; // 1. Import scroller
   
